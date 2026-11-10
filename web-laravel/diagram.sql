@@ -43,3 +43,53 @@ CREATE TABLE pembayaran (
     jumlah_bayar INT
 );
 
+
+--data spp
+$table->id('id_spp'); 
+            $table->integer('tahun');
+            $table->integer('nominal');
+            $table->string('keterangan', 100)->nullable();
+            $table->timestamps();
+
+
+--data siswa
+ $table->char('nisn', 10)->primary(); 
+            $table->char('nis', 8);
+            $table->string('nama', 50);
+            $table->unsignedBigInteger('id_kelas');
+            $table->foreign('id_kelas')->references('id_kelas')->on('kelas')->onDelete('cascade');
+            $table->text('alamat')->nullable();
+            $table->string('no_telp', 15)->nullable();
+            $table->unsignedBigInteger('id_spp');
+            $table->foreign('id_spp')->references('id_spp')->on('spp')->onDelete('cascade');
+            $table->timestamps();
+
+
+--data kelas
+ $table->id('id_kelas'); 
+            $table->string('nama_kelas', 15);
+            $table->string('kompetensi_keahlian', 50);
+            $table->timestamps();
+
+--data petugas
+$table->id('id_petugas');
+            $table->string('username', 30);
+            $table->string('password', 255);
+            $table->string('nama_petugas', 50);
+            $table->enum('level', ['admin', 'petugas']); 
+            $table->timestamps();
+
+
+--data pembayaran 
+$table->id('id_pembayaran'); 
+            $table->unsignedBigInteger('id_petugas');
+            $table->foreign('id_petugas')->references('id_petugas')->on('petugas')->onDelete('cascade');
+            $table->char('nisn', 10);
+            $table->foreign('nisn')->references('nisn')->on('siswa')->onDelete('cascade');
+            $table->date('tgl_bayar');
+            $table->string('bulan_dibayar', 15);
+            $table->string('tahun_dibayar', 4); 
+            $table->unsignedBigInteger('id_spp');
+            $table->foreign('id_spp')->references('id_spp')->on('spp')->onDelete('cascade');  
+            $table->integer('jumlah_bayar');
+            $table->timestamps();
