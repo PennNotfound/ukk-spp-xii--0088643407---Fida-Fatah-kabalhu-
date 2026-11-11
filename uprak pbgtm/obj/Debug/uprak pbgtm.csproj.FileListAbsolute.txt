@@ -1,0 +1,41 @@
+D:\uprak pbgtm\obj\Debug\uprak pbgtm.csproj.AssemblyReference.cache
+D:\uprak pbgtm\obj\Debug\uprak_pbgtm.FormLogin.resources
+D:\uprak pbgtm\obj\Debug\uprak_pbgtm.Properties.Resources.resources
+D:\uprak pbgtm\obj\Debug\uprak pbgtm.csproj.GenerateResource.cache
+D:\uprak pbgtm\obj\Debug\uprak pbgtm.csproj.CoreCompileInputs.cache
+D:\uprak pbgtm\bin\Debug\uprak pbgtm.exe.config
+D:\uprak pbgtm\bin\Debug\uprak pbgtm.exe
+D:\uprak pbgtm\bin\Debug\uprak pbgtm.pdb
+D:\uprak pbgtm\bin\Debug\BCrypt-Net-Next.dll
+D:\uprak pbgtm\bin\Debug\BouncyCastle.Cryptography.dll
+D:\uprak pbgtm\bin\Debug\Google.Protobuf.dll
+D:\uprak pbgtm\bin\Debug\K4os.Compression.LZ4.dll
+D:\uprak pbgtm\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\uprak pbgtm\bin\Debug\K4os.Hash.xxHash.dll
+D:\uprak pbgtm\bin\Debug\MySql.Data.dll
+D:\uprak pbgtm\bin\Debug\System.Buffers.dll
+D:\uprak pbgtm\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\uprak pbgtm\bin\Debug\System.IO.Pipelines.dll
+D:\uprak pbgtm\bin\Debug\System.Memory.dll
+D:\uprak pbgtm\bin\Debug\System.Numerics.Vectors.dll
+D:\uprak pbgtm\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\uprak pbgtm\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\uprak pbgtm\bin\Debug\ZstdSharp.dll
+D:\uprak pbgtm\bin\Debug\BouncyCastle.Cryptography.xml
+D:\uprak pbgtm\bin\Debug\Google.Protobuf.pdb
+D:\uprak pbgtm\bin\Debug\Google.Protobuf.xml
+D:\uprak pbgtm\bin\Debug\K4os.Compression.LZ4.xml
+D:\uprak pbgtm\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\uprak pbgtm\bin\Debug\K4os.Hash.xxHash.xml
+D:\uprak pbgtm\bin\Debug\MySql.Data.xml
+D:\uprak pbgtm\bin\Debug\System.Buffers.xml
+D:\uprak pbgtm\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\uprak pbgtm\bin\Debug\System.IO.Pipelines.xml
+D:\uprak pbgtm\bin\Debug\System.Memory.xml
+D:\uprak pbgtm\bin\Debug\System.Numerics.Vectors.xml
+D:\uprak pbgtm\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\uprak pbgtm\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\uprak pbgtm\obj\Debug\uprak pb.DC5F7235.Up2Date
+D:\uprak pbgtm\obj\Debug\uprak pbgtm.exe
+D:\uprak pbgtm\obj\Debug\uprak pbgtm.pdb
+D:\uprak pbgtm\obj\Debug\uprak_pbgtm.formregisterpetugas.resources
